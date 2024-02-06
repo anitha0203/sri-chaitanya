@@ -1,0 +1,375 @@
+.Spine_container {
+    margin: 0 3%;
+  }
+  .spine-bottom {
+    margin-bottom: 72px;
+  }
+  .spine-heading {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 93px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+  }
+  .spine-text {
+    max-width: 864px;
+    color: var(--text-icon-light-body, #3f454d);
+    margin:32px 0 24px 0;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+  }
+ 
+  .spine_intro{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .scentered_img {
+    display: block;
+    margin: 0 auto; /* Horizontally center the image */
+    text-align: center;
+    width: 100%;
+    height:560px;
+    padding: 0px;
+  }
+
+  .spine_sec2 {
+    color: var(--text-icon-light-body, #3f454d);
+    width: 90%;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.2px;
+   
+  }
+  .spinesect_heading {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Medium */
+    font-family: Outfit;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 58px */
+    margin: 25px 0;
+  }
+  .spect_heading {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Medium */
+    font-family: Outfit;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 58px */
+    margin: 25px 0;
+  }
+
+  @media (min-width: 1200px) and (max-width: 1520px) {
+      .spine_img {
+          display: block;
+          margin: auto; /* Horizontally center the image */
+          text-align: center;
+          width: 100%;
+          height: auto;
+          padding: 0px;
+        }
+        .scentered_img {
+          display: block;
+          margin: 0 auto; /* Horizontally center the image */
+          text-align: center;
+          width: 100%;
+          height:450px;
+          object-fit: cover;
+          padding: 0px;
+        }
+        .spine_sec2 {
+          color: var(--text-icon-light-body, #3f454d);
+          width: 90%;
+          /* Body/TextL/Regular */
+          font-family: Outfit;
+          font-size: 24px;
+          font-style: normal;
+          text-align: justify;
+          font-weight: 400;
+          line-height: 150%; /* 36px */
+          letter-spacing: 0.48px;
+        }
+        .spine-heading {
+          color: var(--text-icon-light-heading, #252525);
+        
+          /* Headings/H3/Regular */
+          font-family: Outfit;
+          font-size: 60px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 100%; /* 93px */
+        }
+        .spine-text {
+          max-width: 864px;
+          color: var(--text-icon-light-body, #3f454d);
+        
+          /* Body/TextL/Regular */
+          font-family: Outfit;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%; /* 36px */
+          letter-spacing: 0.48px;
+          margin: 32px 0 24px 0;
+        }
+       
+        .spine_intro{
+          display: flex;
+          flex-direction: column;
+        }
+        .spinesect_heading {
+          color: var(--text-icon-light-heading, #252525);
+        
+          /* Headings/H4/Medium */
+          font-family: Outfit;
+          font-size: 38px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 100%; /* 58px */
+          margin: 25px 0;
+        }
+        .spect_heading {
+          color: var(--text-icon-light-heading, #252525);
+        
+          /* Headings/H4/Medium */
+          font-family: Outfit;
+          font-size: 38px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 100%; /* 58px */
+          margin: 45px 0;
+        }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+      .spine_img {
+          display: block;
+          margin: auto; /* Horizontally center the image */
+          text-align: center;
+          width: auto;
+          height: auto;
+          padding: 0px;
+        }
+        .scentered_img {
+          display: block;
+          margin: 0 auto; /* Horizontally center the image */
+          text-align: center;
+          width: 100%;
+          height: 250px;
+          object-fit: cover;
+          padding: 0px;
+        }
+        .spine-heading {
+          color: var(--text-icon-light-heading, #252525);
+        
+          /* Headings/H3/Regular */
+          font-family: Outfit;
+          font-size: 50px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 100%; /* 93px */
+        }
+        .spine-text {
+          max-width: 864px;
+          color: var(--text-icon-light-body, #3f454d);
+        
+          /* Body/TextL/Regular */
+          font-family: Outfit;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%; /* 36px */
+          letter-spacing: 0.48px;
+          margin: 32px 0 24px 0;
+        }
+        .spine_sec2 {
+          color: var(--text-icon-light-body, #3f454d);
+          width: 90%;
+          /* Body/TextL/Regular */
+          font-family: Outfit;
+          font-size: 18px;
+          font-style: normal;
+          text-align: justify;
+          font-weight: 400;
+          line-height: 150%; /* 36px */
+          letter-spacing: 0.48px;
+        }
+        .spinesect_heading {
+          color: var(--text-icon-light-heading, #252525);
+        
+          /* Headings/H4/Medium */
+          font-family: Outfit;
+          font-size: 38px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 100%; /* 58px */
+          margin: 25px 0;
+        }
+       
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+      .spine_img {
+          display: block;
+          margin: auto; /* Horizontally center the image */
+          text-align: center;
+          width: 100%;
+          height: auto;
+          padding: 0px;
+        }
+        .scentered_img {
+          display: block;
+          margin: 0 auto; /* Horizontally center the image */
+          text-align: center;
+          width: 100%;
+          height: 250px;
+          object-fit: cover;
+          padding: 0px;
+        }
+        .spine-heading {
+          color: var(--text-icon-light-heading, #252525);
+        
+          /* Headings/H3/Regular */
+          font-family: Outfit;
+          font-size: 50px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 100%; /* 93px */
+        }
+        .spinesect_heading {
+          color: var(--text-icon-light-heading, #252525);
+        
+          /* Headings/H4/Medium */
+          font-family: Outfit;
+          font-size: 38px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 100%; /* 58px */
+          margin: 25px 0;
+        }
+        .spine_sec2 {
+          color: var(--text-icon-light-body, #3f454d);
+          width: 100%;
+          /* Body/TextL/Regular */
+          font-family: Outfit;
+          font-size: 18px;
+          font-style: normal;
+          text-align: justify;
+          font-weight: 400;
+          line-height: 150%; /* 36px */
+          letter-spacing: 0.48px;
+        }
+        .spine-text {
+          max-width: 864px;
+          color: var(--text-icon-light-body, #3f454d);
+        
+          /* Body/TextL/Regular */
+          font-family: Outfit;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%; /* 36px */
+          letter-spacing: 0.48px;
+          margin: 32px 0 24px 0;
+        }
+  }
+  @media (max-width: 767px) {
+      .spine_img {
+          display: block;
+          margin: auto; /* Horizontally center the image */
+          text-align: center;
+          width: 100%;
+          height: auto;
+          padding: 0px;
+          margin-top: 15px;
+        }
+        .spine_sec2 {
+          color: var(--text-icon-light-body, #3f454d);
+          width: 100%;
+          /* Body/TextL/Regular */
+          font-family: Outfit;
+          font-size: 18px;
+          font-style: normal;
+          text-align: justify;
+          font-weight: 400;
+          line-height: 150%; /* 36px */
+          letter-spacing: 0.2px;
+        }
+        .spine-heading {
+          color: var(--text-icon-light-heading, #252525);
+        
+          /* Headings/H3/Regular */
+          font-family: Outfit;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 100%; /* 93px */
+        }
+        .spine_sec_subhead{
+          color: var(--text-icon-light-heading, #252525);
+        
+          /* Headings/H3/Regular */
+          font-family: Outfit;
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 100%; /* 93px */
+        }
+        .spine-text {
+          max-width: 864px;
+          color: var(--text-icon-light-body, #3f454d);
+        
+          /* Body/TextL/Regular */
+          font-family: Outfit;
+          font-size: 18px;
+          font-style: normal;
+          text-align: justify;
+          font-weight: 400;
+          line-height: 150%; /* 36px */
+          letter-spacing: 0.2px;
+        }
+        .spine-bottom {
+          margin-bottom: 36px;
+        }
+        .spine_intro{
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+        }
+        .scentered_img {
+          display: block;
+          margin: 0 auto; /* Horizontally center the image */
+          text-align: center;
+          width: 100%;
+          height:auto;
+          padding: 0px;
+        }
+        .spinesect_heading {
+          color: var(--text-icon-light-heading, #252525);
+        
+          /* Headings/H4/Medium */
+          font-family: Outfit;
+          font-size: 38px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 100%; /* 58px */
+          margin: 25px 0;
+        }
+  }
